@@ -18,7 +18,7 @@ Verify the Product add cart
     input text    //input[@id='twotabsearchtextbox']    iphone 14
     Click element    //input[@id='nav-search-submit-button']
     Sleep    2S
-    Click Element    xpath://img[@alt='Sponsored Ad - iPhone 14 Plus 128GB Midnight']
+    Click Element    xpath:(//img[@class="s-image"])[1]
     SeleniumLibrary.switch window    new
     Sleep    4S
     execute javascript    window.scrollTo(0,500)
