@@ -4,7 +4,7 @@ Documentation    Basic Amazon addcart
 Library    SeleniumLibrary
 *** Variables ***
 
-${loginURL}    https://www.amazon.in/
+${loginURL}    https://www.amazogfncgn.in/
 ${Browser}    chrome
 
 *** Test Cases ***
